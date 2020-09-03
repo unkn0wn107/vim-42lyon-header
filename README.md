@@ -3,6 +3,11 @@ a (better) vim header for 42 projects
 
 ![fancy header image](http://i.imgur.com/WTscMvi.png)
 
+## forked for
+I'm in 42Seoul, and Seoul cadets have long mail. (mine is seougjpa@student.42seoul.kr)
+So I fixed little code about putting padding between mail and ascii art.
+Thanks!
+
 ## Features
 * Passes `norminette`
 * Elegant trimming of long strings
@@ -14,7 +19,7 @@ a (better) vim header for 42 projects
 
 Also, don't forget to set your `$USER` and `$MAIL` variables, marvin lives!
 
-## Usage 
+## Usage
 
 ### No plugin manager
 Copy `42header.vim` to your `~/.vim/after/plugin/` folder. You're set!

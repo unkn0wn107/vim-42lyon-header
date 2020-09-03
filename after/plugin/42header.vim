@@ -6,7 +6,7 @@
 "    By: pbondoer <pbondoer@student.42.fr>          +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2015/12/06 19:39:01 by pbondoer          #+#    #+#              "
-"    Updated: 2018/05/09 17:07:46 by kyork            ###   ########.fr        "
+"    Updated: 2020/09/04 01:10:58 by seongjpa         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -68,7 +68,7 @@ function! s:ascii(n)
 endfunction
 
 function! s:textline(left, right)
-	let l:left = strpart(a:left, 0, s:length - s:margin * 3 - strlen(a:right) + 1)
+	let l:left = strpart(a:left, 0, s:length - s:margin * 2 - strlen(a:right))
 
 	return s:start . repeat(' ', s:margin - strlen(s:start)) . l:left . repeat(' ', s:length - s:margin * 2 - strlen(l:left) - strlen(a:right)) . a:right . repeat(' ', s:margin - strlen(s:end)) . s:end
 endfunction
