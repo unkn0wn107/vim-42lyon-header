@@ -4,7 +4,7 @@ a (better) vim header for 42 projects
 ![fancy header image](http://i.imgur.com/WTscMvi.png)
 
 ## forked for
-I'm in 42Seoul, and Seoul cadets have long mail. (mine is seougjpa@student.42seoul.kr)
+I'm in 42Seoul, and Seoul cadets have long mail. (mine is ...@student.42seoul.kr)
 So I fixed little code about putting padding between mail and ascii art.
 Thanks!
 
