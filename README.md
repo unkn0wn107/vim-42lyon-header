@@ -3,10 +3,10 @@ a (better) vim header for 42 projects
 
 ![fancy header image](http://i.imgur.com/WTscMvi.png)
 
-## forked for
+## forked repo of pbondoer/vim-42header
 42서울 카뎃들의 메일 주소가 길어서 원본 플러그인을 사용할 시 헤더가 깨지는 문제가 발생할 수 있습니다.
-이를 방지하기 위해 약간의 수정을 해서 제가 빨리 사용하려고 그냥 fork했습니다.
-아래 사용방법 항목에서 pbondoer 부분을 goyarn 으로 고쳐주시면 됩니다.
+이를 방지하기 위해 약간의 수정을 했고 빨리 사용하고 싶어서 그냥 fork했습니다.
+아래 Usage 항목에서, 코드 중 pbondoer 부분을 goyarn 으로 고쳐주시면 됩니다.
 
 I'm in 42Seoul, and Seoul cadets have long mail. (mine is ...@student.42seoul.kr)
 So I fixed a line about putting padding between mail and ascii art.
